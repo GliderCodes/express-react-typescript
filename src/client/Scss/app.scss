@@ -1,0 +1,28 @@
+h1 {
+  color: green;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+}
+button {
+  color: antiquewhite;
+  padding: 5px;
+  background-color: blue;
+  border-radius: 15px;
+  margin: 5px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: darken(blue, 10%);
+}
+
+a,
+.link {
+  color: blue;
+}
+a:hover {
+  color: lighten(blue, 30%);
+}
